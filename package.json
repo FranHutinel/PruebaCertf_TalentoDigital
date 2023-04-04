@@ -1,0 +1,32 @@
+{
+  "name": "Prueba TD",
+  "version": "1.0.0",
+  "description": "javascript-fullstack- Prueba de certificación para Talento Digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranHutinel/PruebaCertf_TalentoDigital.git"
+  },
+  "author": "Mariela Francisca Ochoa Hutinel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranHutinel/PruebaCertf_TalentoDigital/issues"
+  },
+  "homepage": "https://github.com/FranHutinel/PruebaCertf_TalentoDigital#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-handlebars": "^7.0.4",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.30.0",
+    "uuid": "^9.0.0"
+  }
+}
