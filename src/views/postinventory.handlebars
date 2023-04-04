@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    {{#each posts}}
+    <div class="col-md-4 col-sm-6 col-12 mb-1">
+      <div class="card mt-4">
+        <img src="{{imagen}}" class="card-img-top" alt="{{titulo}}">
+        <div class="card-body">
+          <h5 class="card-title">{{titulo}}</h5>
+          <p class="card-text">Contenido: {{contenido}}</p>
+          <p class="card-text">Categoría: {{categoria}}</p>
+          <p class="card-text">Actualizado: {{formatDate updatedAt}}</p>
+          <a href="#" class="btn btn-primary like-btn">Like</a>
+          <a href="#" class="btn btn-primary dislike-btn">Dislike</a>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
