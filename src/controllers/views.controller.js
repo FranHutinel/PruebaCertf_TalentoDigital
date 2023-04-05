@@ -76,7 +76,7 @@ export const renderAboutus = async (req, res) => {
   }
 };
 
-export const rendercontact = async (req, res) => {
+export const renderContact = async (req, res) => {
   try {
     res.render('contact', {});
   } catch (error) {

@@ -2,7 +2,7 @@ import express from 'express';
 import { renderPostInventory, renderMantenedor, agregarPost, eliminarPost, 
     eliminarCategoriaporNombre, renderPostActualizador, renderCategoriaActualizador,  
     renderBody, renderPublicaciones, renderDogs, renderCats, renderProfile, renderLogin,
-     rendercontact, renderAboutus, rendercontact} from '../controllers/views.controller.js';
+    renderAboutus, renderContact} from '../controllers/views.controller.js';
 
 
 const router = express.Router();
@@ -38,6 +38,6 @@ router.get('/login', renderLogin);
 
 router.get('/aboutus', renderAboutus);
 
-router.get('/contact', rendercontact);
+router.get('/contact', renderContact);
 
 export default router;
