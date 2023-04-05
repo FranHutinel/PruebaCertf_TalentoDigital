@@ -67,6 +67,24 @@ export const renderLogin = async (req, res) => {
   }
 };
 
+export const renderAboutus = async (req, res) => {
+  try {
+    res.render('aboutus', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
+export const rendercontact = async (req, res) => {
+  try {
+    res.render('contact', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
 // CRUD mantenedor de posts:
 // funciona!
 export const renderMantenedor = async (req, res) => {

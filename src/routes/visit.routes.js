@@ -1,6 +1,8 @@
 import express from 'express';
 import { renderPostInventory, renderMantenedor, agregarPost, eliminarPost, 
-    eliminarCategoriaporNombre, renderPostActualizador, renderCategoriaActualizador,  renderBody, renderPublicaciones, renderDogs, renderCats, renderProfile, renderLogin} from '../controllers/views.controller.js';
+    eliminarCategoriaporNombre, renderPostActualizador, renderCategoriaActualizador,  
+    renderBody, renderPublicaciones, renderDogs, renderCats, renderProfile, renderLogin,
+     rendercontact, renderAboutus, rendercontact} from '../controllers/views.controller.js';
 
 
 const router = express.Router();
@@ -33,5 +35,9 @@ router.get('/dogs', renderDogs);
 router.get('/profile', renderProfile);
 
 router.get('/login', renderLogin);
+
+router.get('/aboutus', renderAboutus);
+
+router.get('/contact', rendercontact);
 
 export default router;
