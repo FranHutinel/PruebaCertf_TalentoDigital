@@ -13,6 +13,59 @@ export const renderPostInventory = async (req, res) => {
     }
 };
 
+export const renderBody = async (req, res) => {
+  try {
+    res.render('body', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
+export const renderPublicaciones = async (req, res) => {
+  try {
+    res.render('publicaciones', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
+export const renderCats = async (req, res) => {
+  try {
+    res.render('cats', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
+export const renderDogs = async (req, res) => {
+  try {
+    res.render('dogs', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
+export const renderProfile = async (req, res) => {
+  try {
+    res.render('profile', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
+
+export const renderLogin = async (req, res) => {
+  try {
+    res.render('blogin', {});
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error al cargar el inventario de posts');
+  }
+};
 
 // CRUD mantenedor de posts:
 // funciona!

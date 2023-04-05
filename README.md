@@ -8,7 +8,7 @@ Agrupación del proyecto
 
 Carpeta src que contiene los archivos de controllers, db, models, public, routes, viewsn, app.js y index.js.
 
-Construido con 🛠 HTML CSS Javascript (JQuery) Bootstrap 5.2.3 Autor. Mariela Ochoa
+Construido con 🛠 HTML CSS Javascript (JQuery) Bootstrap 5.2.3 
 
 Dependencias:
 
@@ -39,3 +39,5 @@ dialect: postgres
 
 
 Link GITHUB PAGE : https://github.com/FranHutinel/PruebaCertf_TalentoDigital.git
+
+Autor. Mariela Ochoa Hutinel.
