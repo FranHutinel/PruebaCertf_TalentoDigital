@@ -6,27 +6,36 @@ Agrupación del proyecto
 
 🚀La estructura de carpetas del proyecto es la siguiente:
 
-Carpeta assets. Esta contiene los directorios de img y js y css. En la carpeta views se encuentran los directorios de cart, login, productos, preguntas frecuentes, favoritos, cookies y "acerca de" siendo estos .html. siendo index.html en la raíz del proyecto.
+Carpeta src que contiene los archivos de controllers, db, models, public, routes, viewsn, app.js y index.js.
 
 Construido con 🛠 HTML CSS Javascript (JQuery) Bootstrap 5.2.3 Autor. Mariela Ochoa
 
-Usuarios para login:
+Dependencias:
 
-    nombre: "sebastian.piñera",
-    password: "123456",
-    correo: "elseba@gmail.com"
+"bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-handlebars": "^7.0.4",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.30.0",
+    "uuid": "^9.0.0"
 
-    nombre: "pepe.kast",
-    password: "123456",
-    correo: "pepitokast@gmail.com"
+-Iniciar proyecto: npm i
+-correr proyecto: npm run dev    
+-host: http://localhost:3000/?#
 
-    nombre: "adolfito.hitler",
-    password: "123456",
-    correo: "adolfhitler@gmail.com"
+Credenciales:
 
-    nombre: "dalai.lama",
-    password: "123456",
-    correo: "dalailama@gmail.com"
+Usuario: ohvhjqfc
+Clave: fxXGREzKybjqMA_S9sPdHezIZHyv4Nr9
+host : mahmud.db.elephantsql.com
+dialect: postgres
 
 
 Link GITHUB PAGE : https://github.com/FranHutinel/PruebaCertf_TalentoDigital.git
